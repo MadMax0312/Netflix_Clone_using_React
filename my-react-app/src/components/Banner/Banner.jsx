@@ -1,8 +1,13 @@
 import "./Banner.css"
+import axios from '../../axios'
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
+import { useEffect } from "react";
 
 function Banner() {
+    useEffect(()=>{
+         axios.get()
+    }, [])
   return (
     <div className="banner">
         <div className="content">
