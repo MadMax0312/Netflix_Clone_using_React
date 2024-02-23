@@ -1,13 +1,14 @@
 .banner {
     background-size: cover;
-    height: 500px;
+    height: 600px;
     color: white;
+    margin-bottom: 10px;
 }
 
 .content {
-    padding-top: 140px;
+    padding-top: 250px;
     height: 190px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .title {
@@ -19,6 +20,7 @@
 .description {
     font-size: 12px;
     max-width: 300px;
+    padding-bottom: 20px;
 }
 
 .banner_buttons {
@@ -31,12 +33,16 @@
     outline: none;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     border: none;
     border-radius: 3px;
-    padding: 0.1rem 1rem;
+    padding: 0.2rem 1rem;
     background-color: white;
     cursor: pointer;
     margin-right: 0.4rem;
+    width: 65px;
+    height: 35px;
+
 }
 
 .play-icon {
@@ -45,20 +51,23 @@
 
 .play-text {
     color: black;
-    font-size: 13.6px;
+    font-size: 16.6px;
     font-weight: 600;
+    margin-bottom: 4px;
 }
 
 .info-button {
     outline: none;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     border: none;
     border-radius: 3px;
     padding: 0.1rem 1rem;
-    background-color: white;
     cursor: pointer;
-    background-color: rgba(51, 51, 51, 0.5)
+    background-color: rgba(51, 51, 51, 0.5);
+    width: 110px;
+    height: 40px;
 }
 
 .info-icon {
@@ -66,8 +75,9 @@
 }
 
 .info-text {
-    font-size: 13.6px;
+    font-size: 16.6px;
     font-weight: 600;
+    margin-bottom: 4px;
 }
 
 .play-button:hover, .info-button:hover {

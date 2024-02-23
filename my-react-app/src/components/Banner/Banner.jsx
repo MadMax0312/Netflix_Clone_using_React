@@ -29,6 +29,7 @@ function Banner(props) {
             <h1 className="title">
             {movie && movie.name ? movie.name : props.name}
             </h1>
+            <h1 className="description">{movie?.overview}</h1>
             <div className="banner_buttons">
                 <div className="play-button">
                     <span className="play-icon"><PlayArrowIcon/></span>
@@ -39,7 +40,6 @@ function Banner(props) {
                     <p className="info-text">More Info</p>
                 </div>
             </div>
-            <h1 className="description">{movie?.overview}</h1>
         </div>
     </div>
   )

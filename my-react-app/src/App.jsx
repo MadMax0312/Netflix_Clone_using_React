@@ -1,7 +1,7 @@
 
 import Navbar from "./components/Navbar/Navbar"
 import "./App.css"
-import {popular, action, adventure, comedy, crime, documentary, drama, family, banner} from './urls'
+import {popular, action, adventure, war, thriller, comedy, crime, documentary, drama, family, fantasy, history, horror, romance, banner} from './urls'
 import Banner from "./components/Banner/Banner"
 import RowPost from "./components/RowPost/RowPost"
 
@@ -18,7 +18,13 @@ function App() {
       <RowPost url={crime} title='Comedy'/>
       <RowPost url={documentary} title='Crime'/>
       <RowPost url={drama} title='Documentary'/>
-      <RowPost url={family} title='Drama'/>
+      <RowPost url={family} title='Family'/>
+      <RowPost url={fantasy} title='Fantasy'/>
+      <RowPost url={history} title='History'/>
+      <RowPost url={horror} title='Horror'/>
+      <RowPost url={romance} title='Romance'/>
+      <RowPost url={war} title='War'/>
+      <RowPost url={thriller} title='Thriller'/>
     </div>
   )
 }
