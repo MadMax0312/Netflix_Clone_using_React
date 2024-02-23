@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@material-ui/icons": "^4.11.3",
-    "axios": "^1.6.7"
+    "axios": "^1.6.7",
+    "react-youtube": "^10.1.0"
   }
 }
