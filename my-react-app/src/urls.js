@@ -1,5 +1,7 @@
 import {API_KEY} from './constants/constants'
 
+export const banner = `trending/all/day?api_key=${API_KEY}&language=en-US`
+
 export const popular = `trending/all/week?api_key=${API_KEY}&language=en-US`
 
 export const action = `discover/movie?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&with_genres=28`

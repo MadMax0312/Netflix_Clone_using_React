@@ -16,6 +16,11 @@
     padding-bottom: 0.3rem;
 }
 
+.description {
+    font-size: 12px;
+    max-width: 300px;
+}
+
 .banner_buttons {
     display: flex;
     align-items: center;
